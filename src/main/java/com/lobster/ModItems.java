@@ -9,6 +9,8 @@ import net.minecraft.util.Identifier;
 import org.spongepowered.include.com.google.common.base.Function;
 
 public class ModItems {
+    private ModItems() {}
+    public static final Item CUSTOM_ITEM = register("custom_item", Item::new, new Item.Settings());
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
         // Create the item key.
         RegistryKey<Item> itemKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ShulkerBroker.MOD_ID, name));

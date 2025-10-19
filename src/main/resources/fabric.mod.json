@@ -3,7 +3,7 @@
 	"id": "shulker-broker",
 	"version": "${version}",
 	"name": "Shulker Broker",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod about a shulker who gave up fighting and is now storing and brokering your items",
 	"authors": [
 		"Me!"
 	],

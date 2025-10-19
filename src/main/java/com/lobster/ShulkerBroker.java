@@ -23,4 +23,3 @@ public class ShulkerBroker implements ModInitializer {
 		ModItems.initalize();
 	}
 }
-}
