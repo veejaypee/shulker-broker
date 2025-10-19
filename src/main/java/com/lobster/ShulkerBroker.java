@@ -20,5 +20,7 @@ public class ShulkerBroker implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		ModItems.initalize();
 	}
+}
 }
